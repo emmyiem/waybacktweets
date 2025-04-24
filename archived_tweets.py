@@ -2,7 +2,7 @@ from waybacktweets import WaybackTweets, TweetsParser
 from datetime import datetime
 
 # Define the username and other parameters
-USERNAME = "emsteck"  # Replace with the target Twitter username
+USERNAME = input("Enter the Twitter username (without @): ").strip()
 api = WaybackTweets(USERNAME)
 archived_tweets = api.get()
 
