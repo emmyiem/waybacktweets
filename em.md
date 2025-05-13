@@ -25,13 +25,13 @@ This project helps you collect, process, and report tweets from Twitter archive 
 git clone https://github.com/claromes/waybacktweets.git
 cd waybacktweets```
 
-**###2. Create a virtual environment (recommended)**
+### 2. Create a virtual environment (recommended)
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate```
 
-**##3. Install dependencies**
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt```
@@ -46,9 +46,9 @@ ratelimit
 
 requests
 
-**##🛠 Usage**
+## 🛠 Usage
 
-###Step 1: Organize your tweet data
+### Step 1: Organize your tweet data
 
 Place all your .json, .csv, or .html Twitter exports into a folder named after the Twitter username (e.g., username/).
 
@@ -62,7 +62,7 @@ waybacktweets/
 │   ├── tweets.json
 │   └── tweets.csv
 
-###Step 2: Generate the Markdown report
+### Step 2: Generate the Markdown report
 
 Run the xx.py script:
 
